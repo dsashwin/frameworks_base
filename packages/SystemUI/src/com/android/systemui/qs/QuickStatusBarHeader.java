@@ -16,6 +16,7 @@ package com.android.systemui.qs;
 
 import static android.app.StatusBarManager.DISABLE2_QUICK_SETTINGS;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
+import static android.provider.Settings.Secure.NETWORK_TRAFFIC_LOCATION;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,6 +25,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.provider.AlarmClock;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.util.Pair;
 import android.view.DisplayCutout;
@@ -33,7 +35,8 @@ import android.view.WindowInsets;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.Space;
-
+import com.android.systemui.tuner.TunerService;
+import com.android.systemui.Dependency;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -47,8 +50,10 @@ import com.android.systemui.statusbar.phone.StatusBarContentInsetsProvider;
 import com.android.systemui.statusbar.phone.StatusBarIconController.TintedIconManager;
 import com.android.systemui.statusbar.phone.StatusIconContainer;
 import com.android.systemui.statusbar.policy.Clock;
+import com.android.systemui.statusbar.policy.NetworkTraffic;
 import com.android.systemui.statusbar.policy.VariableDateView;
 import com.android.systemui.util.LargeScreenUtils;
+import com.android.systemui.tuner.TunerService;
 
 import java.util.List;
 
@@ -56,7 +61,7 @@ import java.util.List;
  * View that contains the top-most bits of the QS panel (primarily the status bar with date, time,
  * battery, carrier info and privacy icons) and also contains the {@link QuickQSPanel}.
  */
-public class QuickStatusBarHeader extends FrameLayout {
+public class QuickStatusBarHeader extends FrameLayout implements TunerService.Tunable {
 
     private boolean mExpanded;
     private boolean mQsDisabled;
@@ -122,6 +127,9 @@ public class QuickStatusBarHeader extends FrameLayout {
 
     private boolean mUseCombinedQSHeader;
 
+    private NetworkTraffic mNetworkTraffic;
+    private boolean mShowNetworkTraffic;
+
     public QuickStatusBarHeader(Context context, AttributeSet attrs) {
         super(context, attrs);
         mActivityStarter = Dependency.get(ActivityStarter.class);
@@ -166,7 +174,10 @@ public class QuickStatusBarHeader extends FrameLayout {
                 v -> mActivityStarter.postStartActivityDismissingKeyguard(
                         new Intent(Intent.ACTION_POWER_USAGE_SUMMARY), 0));
 
+        mNetworkTraffic = findViewById(R.id.network_traffic);
+
         updateResources();
+
         Configuration config = mContext.getResources().getConfiguration();
         setDatePrivacyContainersWidth(config.orientation == Configuration.ORIENTATION_LANDSCAPE);
 
@@ -178,6 +189,9 @@ public class QuickStatusBarHeader extends FrameLayout {
                 .addFloat(mIconContainer, "alpha", 0, 1)
                 .addFloat(mBatteryRemainingIcon, "alpha", 0, 1)
                 .build();
+
+        Dependency.get(TunerService.class).addTunable(this,
+                NETWORK_TRAFFIC_LOCATION);
     }
 
     void onAttach(TintedIconManager iconManager,
@@ -301,6 +315,7 @@ public class QuickStatusBarHeader extends FrameLayout {
             }
             mBatteryRemainingIcon.updateColors(mTextColorPrimary, textColorSecondary,
                     mTextColorPrimary);
+            mNetworkTraffic.setTint(textColor);
         }
 
         MarginLayoutParams qqsLP = (MarginLayoutParams) mHeaderQsPanel.getLayoutParams();
@@ -399,7 +414,8 @@ public class QuickStatusBarHeader extends FrameLayout {
     }
 
     void setChipVisibility(boolean visibility) {
-        if (visibility) {
+        mNetworkTraffic.setChipVisibility(visibility);
+        if (visibility || mShowNetworkTraffic) {
             // Animates the icons and battery indicator from alpha 0 to 1, when the chip is visible
             mIconsAlphaAnimator = mIconsAlphaAnimatorFixed;
             mIconsAlphaAnimator.setPosition(mKeyguardExpansionFraction);
@@ -594,5 +610,18 @@ public class QuickStatusBarHeader extends FrameLayout {
     public void setExpandedScrollAmount(int scrollY) {
         mStatusIconsView.setScrollY(scrollY);
         mDatePrivacyView.setScrollY(scrollY);
+    }
+
+    @Override
+    public void onTuningChanged(String key, String newValue) {
+        switch (key) {
+            case NETWORK_TRAFFIC_LOCATION:
+                mShowNetworkTraffic =
+                        TunerService.parseInteger(newValue, 0) == 2;
+                setChipVisibility(mPrivacyChip.getVisibility() == View.VISIBLE);
+                break;
+            default:
+                break;
+        }
     }
 }
