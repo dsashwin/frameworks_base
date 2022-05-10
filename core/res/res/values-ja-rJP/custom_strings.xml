@@ -14,9 +14,9 @@
     <string name="permgrouprequest_fake_package_signature">&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; のパッケージ署名の偽装を許可しますか？</string>
     <!-- Global actions -->
     <string name="reboot_to_bootloader_title">Bootloaderへ再起動</string>
-    <string name="reboot_to_bootloader_message">ブートローダーへ再起動...</string>
+    <string name="reboot_to_bootloader_message">ブートローダーへ再起動...\u2026</string>
     <string name="reboot_to_recovery_title">リカバリーへ再起動</string>
-    <string name="reboot_to_recovery_message">リカバリーへ再起動中...</string>
+    <string name="reboot_to_recovery_message">リカバリーへ再起動中...\u2026</string>
     <string name="reboot_system_title">システムの再起動</string>
     <string name="reboot_system_message">システムを再起動中\u2026</string>
 </resources>
