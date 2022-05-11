@@ -15,9 +15,9 @@
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
     <string name="quick_settings_ambient_display_label">Индикация событий (doze)</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Индикация событий (doze) отключена.</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Индикация событий (doze) откл.</string>
     <string name="accessibility_quick_settings_ambient_display_on">Индикация событий (doze) включена.</string>
-    <string name="accessibility_quick_settings_ambient_display_changed_off">Индикация событий (doze) отключена.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Индикация событий (doze) откл.</string>
     <string name="accessibility_quick_settings_ambient_display_changed_on">Индикация событий (doze) включена.</string>
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">AOD</string>
