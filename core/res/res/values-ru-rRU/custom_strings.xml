@@ -17,8 +17,8 @@
     <!-- Global actions -->
     <string name="reboot_to_bootloader_title">Перезагрузиться в Fastboot</string>
     <string name="reboot_to_bootloader_message">Перезагрузка в режим fastboot\u2026</string>
-    <string name="reboot_to_recovery_title">Перезагрузиться в рекавери</string>
-    <string name="reboot_to_recovery_message">Перезагрузка в recovery\u2026</string>
+    <string name="reboot_to_recovery_title">Перезагрузиться в режим восстановления</string>
+    <string name="reboot_to_recovery_message">Перезагрузка в режим восстановления\u2026</string>
     <string name="reboot_system_title">Перезагрузка системы</string>
     <string name="reboot_system_message">Перезагрузка системы\u2026</string>
 </resources>
