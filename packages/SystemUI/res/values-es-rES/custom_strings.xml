@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Screen pinning dialog description. (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Esto lo mantiene a la vista hasta que lo quitas. Toque y amplificador, mantén pulsado Atrás para desanclar.</string>
+    <string name="screen_pinning_description_no_navbar">Fija el contenido en pantalla. Toca &amp; mantén pulsado el botón Atrás para desfijar.</string>
     <!-- Notify use that they are in Lock-to-app (for devices without navbar)-->
-    <string name="screen_pinning_toast_no_navbar">Mantén pulsado el botón Atrás para dejar de fijar esta pantalla</string>
+    <string name="screen_pinning_toast_no_navbar">Para dejar de fijar esta pantalla, toca &amp; mantén botón atrás</string>
     <!-- Screen pinning dialog description. (for devices without navbar and with gestures on fingerprint sensor) -->
     <string name="screen_pinning_description_no_navbar_fpsensor">Esto lo mantiene a la vista hasta que lo desancles. Toque y mantenga presionado el sensor de huellas digitales para desanclar.</string>
     <!-- Notify use that they are in Lock-to-app (for devices without navbar and with gestures on fingerprint sensor)-->
@@ -24,8 +24,8 @@
     <string name="quick_settings_aod_off_powersave_label">AOD apagado\nahorro de bateria</string>
     <!-- PowerShare QS tile -->
     <string name="quick_settings_powershare_label">Transferencia de energía inalámbrica</string>
-    <string name="quick_settings_powershare_off_powersave_label">Transferencia de energía inalámbrica apagada\Ahorro de batería</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Transferencia de energía inalámbrica apagada\Batería demasiado baja</string>
+    <string name="quick_settings_powershare_off_powersave_label">Transferencia de energía inalámbrica apagada\nAhorro de batería</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Transferencia de energía inalámbrica apagada\nBatería muy baja</string>
     <string name="quick_settings_powershare_enabled_label">Transferencia de energía inalámbrica está activada</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Modo cafeína</string>
