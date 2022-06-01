@@ -2,53 +2,53 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
-    <string name="quick_settings_ambient_display_label">Ambient display</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
-    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
-    <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display turned off.</string>
-    <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient display turned on.</string>
+    <string name="quick_settings_ambient_display_label">环境显示</string>
+    <string name="accessibility_quick_settings_ambient_display_off">关闭环境显示</string>
+    <string name="accessibility_quick_settings_ambient_display_on">开启环境显示</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">环境显示已关闭</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">环境显示已开启</string>
     <!-- Anti flicker QS tile -->
-    <string name="quick_settings_anti_flicker">Anti flicker</string>
+    <string name="quick_settings_anti_flicker">防闪烁</string>
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
+    <string name="quick_settings_aod_label">息屏显示</string>
+    <string name="quick_settings_aod_off_powersave_label">关闭息屏显示\n省电模式</string>
     <!-- Autobrightness tile -->
-    <string name="quick_settings_autobrightness_label">Auto brightness</string>
+    <string name="quick_settings_autobrightness_label">自动亮度</string>
     <!-- Caffeine QS tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+    <string name="quick_settings_caffeine_label">屏幕常亮</string>
+    <string name="accessibility_quick_settings_caffeine_off">关闭屏幕常亮</string>
+    <string name="accessibility_quick_settings_caffeine_on">开启屏幕常亮</string>
     <!-- Heads up QS tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <string name="quick_settings_heads_up_label">悬浮通知</string>
+    <string name="accessibility_quick_settings_heads_up_off">关闭浮动通知</string>
+    <string name="accessibility_quick_settings_heads_up_on">开启浮动通知</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">浮动通知已关闭</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">浮动通知已开启</string>
     <!-- Reader mode QS tile -->
-    <string name="quick_settings_reading_mode">Reading mode</string>
-    <string name="accessibility_quick_settings_reading_mode_on">Reading mode on.</string>
-    <string name="accessibility_quick_settings_reading_mode_off">Reading mode off.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_on">Reading mode turned on.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_off">Reading mode turned off.</string>
+    <string name="quick_settings_reading_mode">阅读模式</string>
+    <string name="accessibility_quick_settings_reading_mode_on">开启阅读模式</string>
+    <string name="accessibility_quick_settings_reading_mode_off">关闭阅读模式</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_on">阅读模式已开启</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">阅读模式已关闭</string>
     <!-- Sync QS tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off.</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on.</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off.</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on.</string>
+    <string name="quick_settings_sync_label">自动同步</string>
+    <string name="accessibility_quick_settings_sync_off">关闭同步</string>
+    <string name="accessibility_quick_settings_sync_on">开启同步</string>
+    <string name="accessibility_quick_settings_sync_changed_off">同步已关闭</string>
+    <string name="accessibility_quick_settings_sync_changed_on">同步已开启</string>
     <!-- USB tethering QS tile -->
     <string name="quick_settings_usb_tether_label">USB 网络共享</string>
     <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
     <string name="screenshot_delete_label">删除</string>
     <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
-    <string name="screenshot_delete_description">Delete screenshot</string>
+    <string name="screenshot_delete_description">删除屏幕截图</string>
     <!-- Power Menu -->
-    <string name="global_action_reboot">Restart</string>
+    <string name="global_action_reboot">重新启动</string>
     <string name="global_action_reboot_more">高级重启</string>
     <string name="global_action_reboot_sub">系统</string>
     <string name="global_action_reboot_recovery">Recovery</string>
     <string name="global_action_reboot_bootloader">Bootloader</string>
-    <string name="global_action_reboot_systemui">SystemUI</string>
+    <string name="global_action_reboot_systemui">系统界面</string>
     <string name="global_action_settings">设置</string>
     <!-- Status bar network traffic monitor strings -->
     <!-- Combined signal icons in status bar -->
@@ -56,7 +56,7 @@
     <!-- Name of the nfc status bar icon. -->
     <string name="status_bar_nfc">NFC</string>
     <!-- Accessibility label for nfc icon (not shown on screen) [CHAR LIMIT=NONE] -->
-    <string name="accessibility_status_bar_nfc">Nfc</string>
+    <string name="accessibility_status_bar_nfc">NFC</string>
     <!-- Name of the call strength status bar icon. -->
     <string name="status_bar_call_strength">信号强度</string>
     <!-- Name of the VPN status bar icon. -->
