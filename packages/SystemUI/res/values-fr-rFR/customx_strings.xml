@@ -43,12 +43,12 @@
     <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
     <string name="screenshot_delete_description">Delete screenshot</string>
     <!-- Power Menu -->
-    <string name="global_action_reboot">Restart</string>
-    <string name="global_action_reboot_more">Advanced</string>
-    <string name="global_action_reboot_sub">System</string>
+    <string name="global_action_reboot">Redémarrer</string>
+    <string name="global_action_reboot_more">Avancé</string>
+    <string name="global_action_reboot_sub">Système</string>
     <string name="global_action_reboot_recovery">Recovery</string>
     <string name="global_action_reboot_bootloader">Bootloader</string>
-    <string name="global_action_reboot_systemui">SystemUI</string>
+    <string name="global_action_reboot_systemui">Interface système</string>
     <string name="global_action_settings">Settings</string>
     <!-- Status bar network traffic monitor strings -->
     <!-- Combined signal icons in status bar -->
