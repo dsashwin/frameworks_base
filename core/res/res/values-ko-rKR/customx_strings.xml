@@ -39,4 +39,8 @@
     <string name="reboot_to_recovery_message">리커버리 모드로 다시 시작하는 중\u2026</string>
     <string name="reboot_system_title">시스템 다시 시작</string>
     <string name="reboot_system_message">시스템 다시 시작하는 중\u2026</string>
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Copy crash log URL</string>
+    <string name="url_copy_success">URL copied successfully</string>
+    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
 </resources>
