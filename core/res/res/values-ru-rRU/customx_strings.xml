@@ -3,7 +3,7 @@
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_fakePackageSignature">Подмена подписи приложения</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_fakePackageSignature">Разрешать приложениям обходить систему безопасности, выдавая себя за другое приложение. Вредоносные приложения могут использовать это для доступа к частным данным. Предоставляйте это разрешение на свой страх и риск!</string>
+    <string name="permdesc_fakePackageSignature">Разрешать приложениям обходить систему безопасности, выдавая себя за другое приложение. Вредоносные приложения могут использовать это для доступа к частным данным. Используйте данную опцию на свой страх и риск!</string>
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgrouplab_fake_package_signature">Подмена подписи приложения</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -35,10 +35,10 @@
     <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay переключён на ночной режим.</string>
     <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay переключен в режим «на улице».</string>
     <!-- Global actions -->
-    <string name="reboot_to_bootloader_title">Перезагрузить в режим fastboot</string>
-    <string name="reboot_to_bootloader_message">Перезагрузка в режим загрузчика</string>
+    <string name="reboot_to_bootloader_title">Перезагрузить в режим Fastboot</string>
+    <string name="reboot_to_bootloader_message">Перезагрузка в режим Fastboot</string>
     <string name="reboot_to_recovery_title">Перезагрузить в рекавери</string>
-    <string name="reboot_to_recovery_message">Перезагрузка в режим восстановления</string>
-    <string name="reboot_system_title">Перезагрузка системы</string>
-    <string name="reboot_system_message">Перезагрузка системы</string>
+    <string name="reboot_to_recovery_message">Перезагрузка в режим рекавери</string>
+    <string name="reboot_system_title">Перезагрузить систему</string>
+    <string name="reboot_system_message">Перезагрузка\u2026</string>
 </resources>
