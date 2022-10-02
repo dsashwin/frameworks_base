@@ -56,8 +56,8 @@
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Switch data card</string>
-    <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
+    <string name="qs_data_switch_label">切换数据卡</string>
+    <string name="qs_data_switch_toast_0">目前未插入SIM卡</string>
     <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
     <string name="qs_data_switch_text_2">SIM 2</string>
