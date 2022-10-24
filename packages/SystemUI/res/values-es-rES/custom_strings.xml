@@ -20,11 +20,11 @@
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
     <string name="quick_settings_ambient_display_label">Pantalla ambiente</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Pantalla ambiente apagada.</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Pantalla ambiente desactivada.</string>
     <string name="accessibility_quick_settings_ambient_display_on">Pantalla ambiente activada.</string>
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_off_powersave_label">AOD apagado\nahorro de bateria</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD apagado\nahorro de batería</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Modo cafeína</string>
     <string name="accessibility_quick_settings_caffeine_off">Modo Cafeína desactivado.</string>
@@ -38,7 +38,7 @@
     <string name="accessibility_quick_settings_sync_off">Sincronización desactivada.</string>
     <string name="accessibility_quick_settings_sync_on">Sincronización activada.</string>
     <!-- USB tethering QS tile -->
-    <string name="quick_settings_usb_tether_label">Conexión USB</string>
+    <string name="quick_settings_usb_tether_label">Anclaje de red por USB</string>
     <!-- VPN QS tile -->
     <string name="quick_settings_vpn_label">VPN</string>
     <string name="quick_settings_vpn_connect_dialog_title">Conectar a \u2026</string>
@@ -51,7 +51,7 @@
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
     <!-- Name of the roaming status bar icon. -->
-    <string name="status_bar_roaming">Indicador de roaming</string>
+    <string name="status_bar_roaming">Indicador de Roaming</string>
     <!-- Name of the data saver status bar icon. -->
     <string name="status_bar_data_saver">Ahorro de datos</string>
     <!-- Reader mode QS tile -->
@@ -69,7 +69,7 @@
     <string name="global_action_reboot_recovery">Recuperación</string>
     <string name="global_action_reboot_bootloader">Gestor de arranque</string>
     <string name="global_action_reboot_systemui">UI del Sistema</string>
-    <string name="global_action_settings">Configuraciones</string>
+    <string name="global_action_settings">Ajustes</string>
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">Brillo automático</string>
 </resources>
