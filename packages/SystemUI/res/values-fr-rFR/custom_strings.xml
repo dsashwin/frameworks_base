@@ -51,25 +51,25 @@
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
     <!-- Name of the roaming status bar icon. -->
-    <string name="status_bar_roaming">Roaming indicator</string>
+    <string name="status_bar_roaming">Indicateur d\'itinérance</string>
     <!-- Name of the data saver status bar icon. -->
-    <string name="status_bar_data_saver">Data saver</string>
+    <string name="status_bar_data_saver">Économiseur de données</string>
     <!-- Reader mode QS tile -->
-    <string name="quick_settings_reading_mode">Reading mode</string>
-    <string name="accessibility_quick_settings_reading_mode_on">Reading mode on.</string>
-    <string name="accessibility_quick_settings_reading_mode_off">Reading mode off.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_on">Reading mode turned on.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_off">Reading mode turned off.</string>
+    <string name="quick_settings_reading_mode">Mode Lecture</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Activer le mode lecture.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Désactiver le mode lecture.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_on">Mode lecture activé.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">Mode Lecture désactivé.</string>
     <!-- Anti flicker QS tile -->
-    <string name="quick_settings_anti_flicker">Anti flicker</string>
+    <string name="quick_settings_anti_flicker">Anti-scintillement</string>
     <!-- Power Menu -->
-    <string name="global_action_reboot">Restart</string>
-    <string name="global_action_reboot_more">Advanced</string>
-    <string name="global_action_reboot_sub">System</string>
+    <string name="global_action_reboot">Redémarrer</string>
+    <string name="global_action_reboot_more">Avancé</string>
+    <string name="global_action_reboot_sub">Système</string>
     <string name="global_action_reboot_recovery">Recovery</string>
     <string name="global_action_reboot_bootloader">Bootloader</string>
-    <string name="global_action_reboot_systemui">SystemUI</string>
-    <string name="global_action_settings">Settings</string>
+    <string name="global_action_reboot_systemui">Interface système</string>
+    <string name="global_action_settings">Paramètres</string>
     <!-- Autobrightness tile -->
-    <string name="quick_settings_autobrightness_label">Auto brightness</string>
+    <string name="quick_settings_autobrightness_label">Luminosité automatique</string>
 </resources>
