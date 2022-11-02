@@ -32,7 +32,7 @@
     <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay ausgeschaltet.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay zu Automatischen-Modus gewechselt.</string>
     <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay auf Tag-Modus geändert.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay changed to night mode.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay auf Nacht-Modus geändert.</string>
     <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay auf Outdoor-Modus geändert.</string>
     <!-- Global actions -->
     <string name="reboot_to_bootloader_title">Neustart ins Bootloader</string>
@@ -40,5 +40,5 @@
     <string name="reboot_to_recovery_title">Neustart ins Recovery</string>
     <string name="reboot_to_recovery_message">Neustart ins Recovery\u2026</string>
     <string name="reboot_system_title">System neustarten</string>
-    <string name="reboot_system_message">System wird neugestartet</string>
+    <string name="reboot_system_message">System wird neu gestartet</string>
 </resources>
