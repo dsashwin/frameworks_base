@@ -47,9 +47,9 @@ public abstract class AcquisitionClient<T> extends HalClientMonitor<T> implement
             VibrationAttributes.createForUsage(VibrationAttributes.USAGE_HARDWARE_FEEDBACK);
 
     private static final VibrationEffect SUCCESS_VIBRATION_EFFECT =
-            VibrationEffect.get(VibrationEffect.EFFECT_TICK);
+            VibrationEffect.get(VibrationEffect.EFFECT_THUD);
     private static final VibrationEffect ERROR_VIBRATION_EFFECT =
-            VibrationEffect.get(VibrationEffect.EFFECT_DOUBLE_CLICK);
+            VibrationEffect.get(VibrationEffect.EFFECT_THUD);
 
     private final PowerManager mPowerManager;
     // If haptics should occur when auth result (success/reject) is known
