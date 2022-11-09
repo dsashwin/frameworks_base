@@ -452,7 +452,7 @@ public class EdgeBackGestureHandler extends CurrentUserTracker
 
     private void vibrateBack(boolean light) {
             AsyncTask.execute(() ->
-                    mVibrator.vibrate(VibrationEffect.get(light ? VibrationEffect.EFFECT_CLICK :
+                    mVibrator.vibrate(VibrationEffect.get(light ? VibrationEffect.EFFECT_TICK :
                         VibrationEffect.EFFECT_HEAVY_CLICK, true  /* fallback */)));
     }
 

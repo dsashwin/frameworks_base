@@ -5737,7 +5737,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 return VibrationEffect.get(VibrationEffect.EFFECT_DOUBLE_CLICK);
 
             case HapticFeedbackConstants.CALENDAR_DATE:
-                return VibrationEffect.get(VibrationEffect.EFFECT_CLICK);
+                return VibrationEffect.get(VibrationEffect.EFFECT_TICK);
             case HapticFeedbackConstants.SAFE_MODE_ENABLED:
                 pattern = mSafeModeEnabledVibePattern;
                 break;
