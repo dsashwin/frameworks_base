@@ -22,7 +22,8 @@ import android.os.Handler;
 import android.telephony.SubscriptionInfo;
 import android.util.ArraySet;
 import android.util.Log;
-
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import com.android.settingslib.mobile.TelephonyIcons;
 import com.android.systemui.R;
 import com.android.systemui.dagger.SysUISingleton;
@@ -68,7 +69,7 @@ public class StatusBarSignalPolicy implements SignalCallback,
     private final CarrierConfigTracker mCarrierConfigTracker;
     private final TunerService mTunerService;
     private final FeatureFlags mFeatureFlags;
-
+    private WifiManager mWifiManager;
     private boolean mHideAirplane;
     private boolean mHideMobile;
     private boolean mHideWifi;
@@ -114,6 +115,7 @@ public class StatusBarSignalPolicy implements SignalCallback,
         mSlotCallStrength =
                 mContext.getString(com.android.internal.R.string.status_bar_call_strength);
         mActivityEnabled = mContext.getResources().getBoolean(R.bool.config_showActivity);
+        mWifiManager = context.getSystemService(WifiManager.class);
     }
 
     /** Call to initilaize and register this classw with the system. */
@@ -193,6 +195,7 @@ public class StatusBarSignalPolicy implements SignalCallback,
         mIsWifiEnabled = indicators.enabled;
 
         WifiIconState newState = mWifiIconState.copy();
+        int wifiStandard = getWifiStandard(newState);
 
         if (mWifiIconState.noDefaultNetwork && mWifiIconState.noNetworksAvailable
                 && !mIsAirplaneMode) {
@@ -209,12 +212,18 @@ public class StatusBarSignalPolicy implements SignalCallback,
             newState.activityOut = out;
             newState.contentDescription = indicators.statusIcon.contentDescription;
             MobileIconState first = getFirstMobileState();
-            newState.signalSpacerVisible = first != null && first.typeId != 0;
+            newState.signalSpacerVisible = (first != null && first.typeId != 0)
+                    || (indicators.wifiStandard >= 4 && indicators.wifiStandard <= 6);
         }
         newState.slot = mSlotWifi;
         newState.airplaneSpacerVisible = mIsAirplaneMode;
         updateWifiIconWithState(newState);
         mWifiIconState = newState;
+    }
+
+    private int getWifiStandard(WifiIconState state) {
+        WifiInfo wifiInfo = mWifiManager.getConnectionInfo();
+        return state.visible ? wifiInfo.getWifiStandard() : -1;
     }
 
     private void updateShowWifiSignalSpacer(WifiIconState state) {
