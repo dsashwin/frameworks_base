@@ -213,7 +213,7 @@ public class StatusBarSignalPolicy implements SignalCallback,
             newState.contentDescription = indicators.statusIcon.contentDescription;
             MobileIconState first = getFirstMobileState();
             newState.signalSpacerVisible = (first != null && first.typeId != 0)
-                    || (indicators.wifiStandard >= 4 && indicators.wifiStandard <= 6);
+                    || (wifiStandard >= 4 && wifiStandard <= 6);
         }
         newState.slot = mSlotWifi;
         newState.airplaneSpacerVisible = mIsAirplaneMode;
