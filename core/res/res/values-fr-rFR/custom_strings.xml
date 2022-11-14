@@ -42,9 +42,9 @@
     <string name="reboot_system_title">Redémarrer le système</string>
     <string name="reboot_system_message">Redémarrage du système\u2026</string>
     <!-- Face unlock -->
-    <string name="face_unlock_disabled_idle">Face unlock disabled due to inactivity</string>
+    <string name="face_unlock_disabled_idle">Déverrouillage par reconnaissance faciale désactivé en raison de l\'inactivité</string>
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
+    <string name="aerr_copy">Copier l\'URL du rapport d\'erreur</string>
+    <string name="url_copy_success">URL copiée avec succès</string>
+    <string name="url_copy_failed">Une erreur s\'est produite lors de l\'envoi du rapport d\'erreurs</string>
 </resources>
