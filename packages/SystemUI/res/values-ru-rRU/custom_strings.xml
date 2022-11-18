@@ -79,5 +79,5 @@
     <!-- Face Unlock -->
     <string name="face_unlock_recognizing">Распознавание лица...</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Показать значок стандарта Wi-Fi</string>
+    <string name="show_wifi_standard_icon_title">Показывать значок стандарта Wi-Fi</string>
 </resources>
