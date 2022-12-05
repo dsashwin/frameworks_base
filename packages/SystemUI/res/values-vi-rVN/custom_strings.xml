@@ -23,7 +23,7 @@
     <string name="accessibility_quick_settings_ambient_display_off">Màn hình luôn bật: tắt.</string>
     <string name="accessibility_quick_settings_ambient_display_on">Màn hình luôn bật: bật.</string>
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_label">Màn hình luôn bật</string>
     <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Caffeine</string>
