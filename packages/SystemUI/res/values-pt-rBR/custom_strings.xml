@@ -36,7 +36,7 @@
     <!-- Sync QS tile -->
     <string name="quick_settings_sync_label">Sincronização</string>
     <string name="accessibility_quick_settings_sync_off">Sincronização desativada.</string>
-    <string name="accessibility_quick_settings_sync_on">Sincronização ligada.</string>
+    <string name="accessibility_quick_settings_sync_on">Sincronização ativada.</string>
     <!-- USB tethering QS tile -->
     <string name="quick_settings_usb_tether_label">Compartilhamento por USB</string>
     <!-- VPN QS tile -->
@@ -56,10 +56,10 @@
     <string name="status_bar_data_saver">Economia de dados</string>
     <!-- Reader mode QS tile -->
     <string name="quick_settings_reading_mode">Modo leitura</string>
-    <string name="accessibility_quick_settings_reading_mode_on">Modo leitura ligado.</string>
-    <string name="accessibility_quick_settings_reading_mode_off">Modo leitura desligado.</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Modo leitura ativado.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Modo leitura desativado.</string>
     <string name="accessibility_quick_settings_reading_mode_changed_on">O Modo leitura foi ativado.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_off">O modo leitura foi desligado.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">O modo leitura foi desativado.</string>
     <!-- Anti flicker QS tile -->
     <string name="quick_settings_anti_flicker">Modo anti cintilação</string>
     <!-- Power Menu -->
