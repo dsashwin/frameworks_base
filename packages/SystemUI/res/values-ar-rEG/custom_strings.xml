@@ -24,7 +24,7 @@
     <string name="accessibility_quick_settings_ambient_display_on">تفعيل شاشة الاشعارات.</string>
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">شاشة العرض الدائمة</string>
-    <string name="quick_settings_aod_off_powersave_label">إيقاف\n الشاشة العرض الدائمة عند تفعيل وضع توفير البطارية</string>
+    <string name="quick_settings_aod_off_powersave_label">إيقاف شاشة العرض الدائمة\nوضع توفير البطارية</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">وضع الكافيين</string>
     <string name="accessibility_quick_settings_caffeine_off">وضع الكافيين معطل.</string>
@@ -77,7 +77,7 @@
     <string name="bluetooth_is_off">البلوتوث غير مفعل</string>
     <string name="tap_a_device_to_connect">انقر على جهاز للاتصال</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_recognizing">Recognizing face...</string>
+    <string name="face_unlock_recognizing">يتم التعرف على الوجه...</string>
     <!-- Wi-Fi Standard icon -->
-    <string name="show_wifi_standard_icon_title">Wi-Fi Standard icon</string>
+    <string name="show_wifi_standard_icon_title">أيقونة Wi-Fi الافتراضية</string>
 </resources>
