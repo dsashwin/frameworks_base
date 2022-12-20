@@ -36,15 +36,15 @@
     <string name="accessibility_quick_settings_live_display_changed_outdoor">تم تغيير LiveDisplay إلى وضع خارج المنزل.</string>
     <!-- Global actions -->
     <string name="reboot_to_bootloader_title">إعادة التشغيل الى وضع البوتلودر</string>
-    <string name="reboot_to_bootloader_message">جاري إعادة التشغيل إلى البوتلودر</string>
+    <string name="reboot_to_bootloader_message">جاري إعادة التشغيل إلى البوتلودر\u2026</string>
     <string name="reboot_to_recovery_title">إعادة تشغيل إلى الريكفرى</string>
     <string name="reboot_to_recovery_message">يتم اعادة التشغيل إلى وضع الريكفرى \u2026</string>
     <string name="reboot_system_title">إعادة تشغيل النظام</string>
-    <string name="reboot_system_message">جارِ إعادة تشغيل النظام</string>
+    <string name="reboot_system_message">جارِ إعادة تشغيل النظام\u2026</string>
     <!-- Face unlock -->
-    <string name="face_unlock_disabled_idle">Face unlock disabled due to inactivity</string>
+    <string name="face_unlock_disabled_idle">تم تعطيل \"فتح القُفْل بالوجه\" بسبب عدم النشاط</string>
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
+    <string name="aerr_copy">نسخ رابط سجل الأعطال</string>
+    <string name="url_copy_success">تم نسخ الرابط بنجاح</string>
+    <string name="url_copy_failed">حدث خطأ أثناء تحميل السجل إلى Memochō</string>
 </resources>
