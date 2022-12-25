@@ -48,4 +48,8 @@
 
     <!-- Start padding for the statusbar network traffic indicator -->
     <dimen name="status_bar_network_traffic_padding_start">4dp</dimen>
+
+    <!-- Auth ripple animation duration
+         AOSP default is 1533 -->
+    <item name="auth_ripple_animation_duration" format="float" type="dimen">766.5</item>
 </resources>
