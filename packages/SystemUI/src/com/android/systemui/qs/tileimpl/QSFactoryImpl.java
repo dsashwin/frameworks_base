@@ -35,6 +35,7 @@ import com.android.systemui.qs.tiles.AmbientDisplayTile;
 import com.android.systemui.qs.tiles.AntiFlickerTile;
 import com.android.systemui.qs.tiles.AODTile;
 import com.android.systemui.qs.tiles.BatterySaverTile;
+import com.android.systemui.qs.tiles.BluetoothExpandedTile;
 import com.android.systemui.qs.tiles.BluetoothTile;
 import com.android.systemui.qs.tiles.CaffeineTile;
 import com.android.systemui.qs.tiles.CameraToggleTile;
@@ -84,6 +85,7 @@ public class QSFactoryImpl implements QSFactory {
 
     private final Provider<WifiTile> mWifiTileProvider;
     private final Provider<InternetTile> mInternetTileProvider;
+    private final Provider<BluetoothExpandedTile> mBluetoothExpandedTileProvider;
     private final Provider<BluetoothTile> mBluetoothTileProvider;
     private final Provider<CellularTile> mCellularTileProvider;
     private final Provider<DndTile> mDndTileProvider;
@@ -135,6 +137,7 @@ public class QSFactoryImpl implements QSFactory {
             Provider<CustomTile.Builder> customTileBuilderProvider,
             Provider<WifiTile> wifiTileProvider,
             Provider<InternetTile> internetTileProvider,
+            Provider<BluetoothExpandedTile> bluetoothExpandedTileProvider,
             Provider<BluetoothTile> bluetoothTileProvider,
             Provider<CellularTile> cellularTileProvider,
             Provider<DndTile> dndTileProvider,
@@ -181,6 +184,7 @@ public class QSFactoryImpl implements QSFactory {
 
         mWifiTileProvider = wifiTileProvider;
         mInternetTileProvider = internetTileProvider;
+        mBluetoothExpandedTileProvider = bluetoothExpandedTileProvider;
         mBluetoothTileProvider = bluetoothTileProvider;
         mCellularTileProvider = cellularTileProvider;
         mDndTileProvider = dndTileProvider;
@@ -243,6 +247,8 @@ public class QSFactoryImpl implements QSFactory {
                 return mWifiTileProvider.get();
             case "internet":
                 return mInternetTileProvider.get();
+            case "btexp":
+                return mBluetoothExpandedTileProvider.get();
             case "bt":
                 return mBluetoothTileProvider.get();
             case "cell":
