@@ -16,46 +16,46 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title of statusbar tuner -->
-    <string name="status_bar_icons">Status bar icons</string>
+    <string name="status_bar_icons">സ്റ്റാറ്റസ് ബാർ ഐക്കണുകൾ</string>
     <!-- Bluetooth dialog -->
-    <string name="bluetooth_is_off">Bluetooth is off</string>
-    <string name="tap_a_device_to_connect">Tap a device to connect</string>
+    <string name="bluetooth_is_off">ബ്ലൂടൂത്ത് ഓഫാണ്</string>
+    <string name="tap_a_device_to_connect">കണക്റ്റുചെയ്യാൻ ഒരു ഉപകരണത്തിൽ ടാപ്പ് ചെയ്യുക</string>
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
-    <string name="quick_settings_ambient_display_label">Ambient display</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
-    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
+    <string name="quick_settings_ambient_display_label">ആമ്പിയന്റ് ഡിസ്‌പ്ലേ</string>
+    <string name="accessibility_quick_settings_ambient_display_off">ആമ്പിയന്റ് ഡിസ്‌പ്ലേ ഓഫ്‌.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">ആമ്പിയന്റ് ഡിസ്‌പ്ലേ ഓൺ.</string>
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
+    <string name="quick_settings_aod_label">എല്ലായ്‌പ്പോഴും ഓൺ ആയിരിക്കുന്ന ഡിസ്പ്ലേ</string>
+    <string name="quick_settings_aod_off_powersave_label">എഓഡി ഓഫ് \n ബാറ്ററി സേവർ</string>
     <!-- Caffeine QS tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+    <string name="quick_settings_caffeine_label">കഫീൻ</string>
+    <string name="accessibility_quick_settings_caffeine_off">കഫീൻ ഓഫ്‌.</string>
+    <string name="accessibility_quick_settings_caffeine_on">കഫീൻ ഓൺ.</string>
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Switch data card</string>
-    <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
-    <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
-    <string name="qs_data_switch_text_1">SIM 1</string>
-    <string name="qs_data_switch_text_2">SIM 2</string>
-    <string name="qs_data_switch_changed_1">Switched data card to SIM 1.</string>
-    <string name="qs_data_switch_changed_2">Switched data card to SIM 2.</string>
+    <string name="qs_data_switch_label">ഡാറ്റാ കാർഡ് സ്വിച്ച് ചെയ്യുക</string>
+    <string name="qs_data_switch_toast_0">നിലവിൽ ഒരു സിം കാർഡും ഇട്ടിട്ടില്ല</string>
+    <string name="qs_data_switch_toast_1">നിലവിൽ ഒരു സിം കാർഡ് മാത്രമേ ഇട്ടിട്ടുള്ളു</string>
+    <string name="qs_data_switch_text_1">സിം 1</string>
+    <string name="qs_data_switch_text_2">സിം 2</string>
+    <string name="qs_data_switch_changed_1">ഡാറ്റ കാർഡ് സിം 1-ലേക്ക് മാറ്റി.</string>
+    <string name="qs_data_switch_changed_2">ഡാറ്റ കാർഡ് സിം 2-ലേക്ക് മാറ്റി.</string>
     <!-- Heads up QS tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
+    <string name="quick_settings_heads_up_label">മുന്നറിയിപ്പ്</string>
+    <string name="accessibility_quick_settings_heads_up_off">മുണറിയിപ് ഓഫ്.</string>
+    <string name="accessibility_quick_settings_heads_up_on">മുണറിയിപ് ഓൺ.</string>
     <!-- Sync QS tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off.</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on.</string>
+    <string name="quick_settings_sync_label">സമന്വയിപ്പിക്കുക</string>
+    <string name="accessibility_quick_settings_sync_off">സമന്വയിപ്പിക്കൽ ഓഫ് ചെയ്യുക.</string>
+    <string name="accessibility_quick_settings_sync_on">സമന്വയിപ്പിക്കൽ ഓണാക്കുക.</string>
     <!-- USB tethering QS tile -->
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="quick_settings_usb_tether_label">USB ടെതറിംഗ്</string>
     <!-- VPN QS tile -->
-    <string name="quick_settings_vpn_label">VPN</string>
-    <string name="quick_settings_vpn_connect_dialog_title">Connect to\u2026</string>
-    <string name="vpn_credentials_hint">Please enter your credentials for connecting to <xliff:g id="name">%s</xliff:g></string>
-    <string name="vpn_credentials_username">Username</string>
-    <string name="vpn_credentials_password">Password</string>
+    <string name="quick_settings_vpn_label">വി പി എൻ</string>
+    <string name="quick_settings_vpn_connect_dialog_title">\u2026 ലേക്ക് ബന്ധിപ്പിക്കുക</string>
+    <string name="vpn_credentials_hint"><xliff:g id="name">%s</xliff:g> ലേക്ക് കണക്ട് ചെയ്യാനുള്ള ക്രടൻശ്യൽ നൽകുക</string>
+    <string name="vpn_credentials_username">ഉപയോക്തൃനാമം</string>
+    <string name="vpn_credentials_password">പാസ്സ്‌വേർഡ്</string>
     <string name="vpn_credentials_dialog_connect">Connect</string>
     <!-- PowerShare QS tile -->
     <string name="quick_settings_powershare_label">Battery Share</string>
@@ -96,6 +96,5 @@
     <string name="usage_data">used today</string>
     <string name="usage_data_default_suffix">Data</string>
     <string name="usage_wifi_default_suffix">Wi-Fi</string>
-    <!-- Name of the network traffic indicator on status bar. -->
-    <string name="status_bar_network_traffic">Real-time internet speed</string>
+    <!-- Status bar network traffic monitor strings -->
 </resources>
