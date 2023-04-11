@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_aod_label">Постійно активний екран</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Заборона сну</string>
     <string name="accessibility_quick_settings_caffeine_off">Заборона сну вимкнуто.</string>
@@ -49,9 +49,9 @@
     <string name="qs_data_switch_changed_1">Змінено картку даних на SIM 1.</string>
     <string name="qs_data_switch_changed_2">Змінено картку даних на SIM 2.</string>
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_compass_label">Компас</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_init">Initializing\u2026</string>
+    <string name="quick_settings_compass_init">Ініціалізація\u2026</string>
     <string name="quick_settings_compass_N">N</string>
     <string name="quick_settings_compass_NE">NE</string>
     <string name="quick_settings_compass_E">E</string>
