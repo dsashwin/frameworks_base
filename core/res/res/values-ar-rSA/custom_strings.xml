@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Global actions -->
-    <string name="reboot_to_bootloader_title">إعادة التشغيل إلى وضع البوتلودر</string>
+    <string name="reboot_to_bootloader_title">إعادة التشغيل الى وضع البوتلودر</string>
     <string name="reboot_to_bootloader_message">جاري إعادة التشغيل إلى البوتلودر\u2026</string>
     <string name="reboot_to_recovery_title">إعادة تشغيل إلى الريكفرى</string>
     <string name="reboot_to_recovery_message">يتم اعادة التشغيل إلى وضع الريكفرى \u2026</string>
@@ -25,11 +25,11 @@
     <!-- Face unlock -->
     <string name="face_unlock_disabled_idle">تم تعطيل \"فتح القُفْل بالوجه\" بسبب عدم النشاط</string>
     <!-- Pocket Lock -->
-    <string name="pocket_lock_message_long_press">اضغط مع الاستمرار على زر التشغيل للفتح</string>
-    <string name="pocket_view_title">وضع الجيب مفعل</string>
-    <string name="pocket_view_title_cancel">لاستخدام هاتفك:</string>
-    <string name="pocket_view_top_tag_cancel">تحقق مما إذا كانت المنطقة الزرقاء في هاتفك خالية من أي عوائق، وقم بتنظيف أي تراب أو غبار.</string>
-    <string name="pocket_view_top_tag_cancel2">اضغط مطولاً على زر التشغيل للخروج من وضع الجيب.</string>
+    <string name="pocket_lock_message_long_press">Press and hold power button to unlock</string>
+    <string name="pocket_view_title">Pocket mode is on</string>
+    <string name="pocket_view_title_cancel">To use your phone:</string>
+    <string name="pocket_view_top_tag_cancel">Check if the blue area of your phone is clear of any obstructions, and clean off any dirt or dust.</string>
+    <string name="pocket_view_top_tag_cancel2">Long press the power button to force quit pocket mode.</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
 </resources>
