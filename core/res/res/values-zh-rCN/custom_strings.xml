@@ -46,7 +46,7 @@
     <string name="live_display_day_summary">仅在日间使用设置</string>
     <string name="live_display_night">夜间</string>
     <string name="live_display_night_summary">仅在夜间使用设置</string>
-    <string name="live_display_outdoor">户外模式 (强光)</string>
+    <string name="live_display_outdoor">户外模式（强光）</string>
     <string name="live_display_outdoor_summary">仅在户外使用设置</string>
     <string name="live_display_hint">LiveDisplay 能减轻眼疲劳，并在夜间帮助您入睡。</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay 关闭。</string>
