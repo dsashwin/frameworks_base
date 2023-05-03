@@ -32,7 +32,7 @@
     <string name="reboot_to_bootloader_title">Bootloader</string>
     <string name="reboot_to_bootloader_message">正在重启至 Bootloader</string>
     <string name="reboot_title">重启</string>
-    <string name="reboot_message">正在重启至系统</string>
+    <string name="reboot_message">正在重启系统</string>
     <!-- App lock -->
     <string name="unlock_application">解锁 <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
     <!-- Face unlock -->
