@@ -16,49 +16,49 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_fakePackageSignature">Spoof package signature</string>
+    <string name="permlab_fakePackageSignature">Falsifică semnătura pachetului</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_fakePackageSignature">Allows the app to pretend to be a different app. Malicious applications might be able to use this to access private application data. Legitimate uses include an emulator pretending to be what it emulates. Grant this permission with caution only!</string>
+    <string name="permdesc_fakePackageSignature">Permite aplicației să pretindă că este o aplicație diferită. Aplicațiile rău-intenționate ar putea să utilizeze aceasta pentru a accesa datele aplicațiilor private. Acordă această permisiune numai cu prudență!</string>
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgrouplab_fake_package_signature">Spoof package signature</string>
+    <string name="permgrouplab_fake_package_signature">Falsifică semnătura pachetului</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgroupdesc_fake_package_signature">allow to spoof package signature</string>
+    <string name="permgroupdesc_fake_package_signature">permite falsificarea semnăturii pachetului</string>
     <!-- Message shown to the user when the apps requests permission from this group. If ever possible this should stay below 80 characters (assuming the parameters takes 20 characters). Don't abbreviate until the message reaches 120 characters though. [CHAR LIMIT=120] -->
-    <string name="permgrouprequest_fake_package_signature">Allow
-        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; to spoof package signature?</string>
+    <string name="permgrouprequest_fake_package_signature">Permiți aplicației
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; să falsifice semnătura pachetului?</string>
     <!-- Advanced reboot -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Rebooting to recovery</string>
+    <string name="reboot_to_recovery_title">Recuperare</string>
+    <string name="reboot_to_recovery_message">Repornire în recuperare</string>
     <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Rebooting to bootloader</string>
-    <string name="reboot_title">Reboot</string>
-    <string name="reboot_message">Rebooting system</string>
+    <string name="reboot_to_bootloader_message">Repornire în bootloader</string>
+    <string name="reboot_title">Repornește</string>
+    <string name="reboot_message">Repornește sistemul</string>
     <!-- App lock -->
-    <string name="unlock_application">Unlock <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
+    <string name="unlock_application">Deblocare <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
     <!-- Face unlock -->
     <string name="face_unlock_disabled_idle">Deblocarea facială a fost dezactivată din cauza inactivității</string>
     <!-- LiveDisplay strings -->
-    <string name="live_display_auto">Automatic</string>
-    <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
-    <string name="live_display_off">Off</string>
-    <string name="live_display_off_summary">Disable all adjustments</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_day_summary">Use day settings only</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_night_summary">Use night settings only</string>
-    <string name="live_display_outdoor">Outdoor (bright sun)</string>
-    <string name="live_display_outdoor_summary">Use outdoor settings only</string>
-    <string name="live_display_hint">LiveDisplay can help reduce eyestrain and help you sleep at night. Click here to try it out!</string>
-    <string name="accessibility_quick_settings_live_display_off">LiveDisplay off.</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: day mode.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: night mode.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: outdoor mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay turned off.</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay changed to auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay changed to day mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay changed to night mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay changed to outdoor mode.</string>
+    <string name="live_display_auto">Automat</string>
+    <string name="live_display_auto_summary">Reglează automat temperatura culorii ecranului în funcție de apus și răsărit</string>
+    <string name="live_display_off">Oprit</string>
+    <string name="live_display_off_summary">Dezactivează toate ajustările</string>
+    <string name="live_display_day">Zi</string>
+    <string name="live_display_day_summary">Folosește doar setările de zi</string>
+    <string name="live_display_night">Noapte</string>
+    <string name="live_display_night_summary">Folosește numai setările de noapte</string>
+    <string name="live_display_outdoor">Exterior (soare puternic)</string>
+    <string name="live_display_outdoor_summary">Folosește doar setările de exterior</string>
+    <string name="live_display_hint">LiveDisplay poate ajuta la reducerea oboselii ochilor și te poate ajuta să dormi noaptea. Apasă aici pentru a-l încerca!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay este dezactivat.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: mod automat.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modul zi.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modul noapte.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modul exterior.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay este oprit.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay s-a schimbat la modul automat.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay s-a schimbat la modul zi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay s-a schimbat la modul noapte.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay s-a schimbat la modul exterior.</string>
     <!-- Pocket Lock -->
     <string name="pocket_lock_message_long_press">Apasă și ține apăsat butonul de pornire pentru a debloca</string>
     <string name="pocket_view_title">Modul buzunar este pornit</string>
@@ -68,7 +68,7 @@
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
+    <string name="aerr_copy">Copiază URL-ul jurnalului de erori</string>
+    <string name="url_copy_success">URL copiat cu succes</string>
+    <string name="url_copy_failed">A apărut o eroare la încărcarea jurnalului în Memochō</string>
 </resources>
