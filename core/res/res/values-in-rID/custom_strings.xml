@@ -31,7 +31,7 @@
     <string name="reboot_to_recovery_message">Memulai ulang ke recovery</string>
     <string name="reboot_to_bootloader_title">Bootloader</string>
     <string name="reboot_to_bootloader_message">Memulai ulang ke bootloader</string>
-    <string name="reboot_title">Memulai ulang</string>
+    <string name="reboot_title">Mulai ulang</string>
     <string name="reboot_message">Memulai ulang sistem</string>
     <!-- App lock -->
     <string name="unlock_application">Buka <xliff:g id="label" example="Telegram">%1$s</xliff:g></string>
