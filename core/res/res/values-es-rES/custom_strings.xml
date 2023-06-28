@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Advanced reboot -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Reiniciando en modo recovery</string>
-    <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Reiniciando en modo bootloader</string>
+    <string name="reboot_to_recovery_title">Recuperación</string>
+    <string name="reboot_to_recovery_message">Reiniciando en modo recuperación</string>
+    <string name="reboot_to_bootloader_title">Gestor de arranque</string>
+    <string name="reboot_to_bootloader_message">Reiniciando en modo gestor de arranque</string>
     <string name="reboot_title">Reiniciar</string>
     <string name="reboot_message">Reiniciando el sistema</string>
     <!-- Button that copies the url to the log of a crashed application -->
@@ -51,8 +51,8 @@
     <!-- Pocket Lock -->
     <string name="pocket_lock_message_long_press">Pulse y mantenga el botón de encendido para desbloquear</string>
     <string name="pocket_view_title">Modo bolsillo activado</string>
-    <string name="pocket_view_title_cancel">To activate your phone:</string>
-    <string name="pocket_view_top_tag_cancel">Please do not cover the blue area of your phone and clear any dirt or dust off it.</string>
+    <string name="pocket_view_title_cancel">Para activar su teléfono:</string>
+    <string name="pocket_view_top_tag_cancel">Por favor no cubra el área azul de su teléfono y limpie cualquier suciedad o polvo.</string>
     <string name="pocket_view_top_tag_cancel2">Mantén pulsado el botón encendido para desactivar forzosamente el modo bolsillo.</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
