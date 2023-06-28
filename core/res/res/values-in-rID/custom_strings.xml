@@ -51,8 +51,8 @@
     <!-- Pocket Lock -->
     <string name="pocket_lock_message_long_press">Tekan dan tahan tombol daya untuk membuka kunci</string>
     <string name="pocket_view_title">Mode saku sedang aktif</string>
-    <string name="pocket_view_title_cancel">To activate your phone:</string>
-    <string name="pocket_view_top_tag_cancel">Please do not cover the blue area of your phone and clear any dirt or dust off it.</string>
+    <string name="pocket_view_title_cancel">Untuk mengaktifkan ponsel Anda:</string>
+    <string name="pocket_view_top_tag_cancel">Jangan menutupi area biru ponsel Anda, dan bersihkan dari kotoran atau debu.</string>
     <string name="pocket_view_top_tag_cancel2">Tekan lama tombol daya untuk memaksa keluar dari mode saku.</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
