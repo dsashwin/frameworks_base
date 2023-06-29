@@ -28,7 +28,7 @@
     <string name="url_copy_failed">Произошла ошибка при загрузке лога на Memochō</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Автоматически</string>
-    <string name="live_display_auto_summary">Автоматическая подстройка цветовой температуры экрана после заката и рассвета</string>
+    <string name="live_display_auto_summary">Автоматически регулировать температуру цвета экрана после заката и восхода солнца</string>
     <string name="live_display_off">Отключено</string>
     <string name="live_display_off_summary">Отключить все надстройки</string>
     <string name="live_display_day">День</string>
