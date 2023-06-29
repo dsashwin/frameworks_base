@@ -16,11 +16,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Advanced reboot -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Rebooting to recovery</string>
-    <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Rebooting to bootloader</string>
-    <string name="reboot_title">Reboot</string>
+    <string name="reboot_to_recovery_title">পুনরুদ্ধার</string>
+    <string name="reboot_to_recovery_message">পুনরুদ্ধারের জন্য রিবুট করা হচ্ছে</string>
+    <string name="reboot_to_bootloader_title">বুটলোডার</string>
+    <string name="reboot_to_bootloader_message">বুটলোডারে রিবুট করা হচ্ছে</string>
+    <string name="reboot_title">রিবুট করুন</string>
     <string name="reboot_message">Rebooting system</string>
     <!-- Button that copies the url to the log of a crashed application -->
     <string name="aerr_copy">Copy crash log URL</string>
