@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Advanced reboot -->
     <string name="reboot_to_recovery_title">Kurtarma</string>
-    <string name="reboot_to_recovery_message">Kurtarma moduna yeniden başlatılıyor</string>
+    <string name="reboot_to_recovery_message">Kurtarma modunda yeniden başlatılıyor</string>
     <string name="reboot_to_bootloader_title">Ön yükleyici</string>
     <string name="reboot_to_bootloader_message">Ön yükleyici modunda yeniden başlatılıyor</string>
     <string name="reboot_title">Yeniden başlat</string>
