@@ -18,15 +18,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Paparan selalu aktif (AOD)</string>
+    <string name="quick_settings_aod_label">Paparan selalu hidup</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Kafein</string>
     <string name="accessibility_quick_settings_caffeine_off">Kafein dimatikan.</string>
     <string name="accessibility_quick_settings_caffeine_on">Kafein dihidupkan.</string>
     <!-- Heads up QS tile -->
-    <string name="quick_settings_heads_up_label">Notifikasi pop naik</string>
-    <string name="accessibility_quick_settings_heads_up_off">Notifikasi pop naik dimatikan.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Notifikasi pop naik dihidupkan.</string>
+    <string name="quick_settings_heads_up_label">Pemberitahuan pop naik</string>
+    <string name="accessibility_quick_settings_heads_up_off">Pemberitahuan pop naik dimatikan.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Pemberitahuan pop naik dihidupkan.</string>
     <!-- Sync QS tile -->
     <string name="quick_settings_sync_label">Penyegerakkan</string>
     <string name="accessibility_quick_settings_sync_off">Penyegerakkan dimatikan.</string>
@@ -81,19 +81,19 @@
     <!-- Reader mode QS tile -->
     <string name="quick_settings_reading_mode">Mod membaca</string>
     <string name="accessibility_quick_settings_reading_mode_on">Mod membaca dihidupkan.</string>
-    <string name="accessibility_quick_settings_reading_mode_off">Reading mode off.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_on">Reading mode turned on.</string>
-    <string name="accessibility_quick_settings_reading_mode_changed_off">Reading mode turned off.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Mod membaca dimatikan.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_on">Mod membaca dihidupkan.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">Mod membaca dimatikan.</string>
     <!-- Anti flicker QS tile -->
-    <string name="quick_settings_anti_flicker">Anti flicker</string>
+    <string name="quick_settings_anti_flicker">Anti kelipan</string>
     <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
-    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
-    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
+    <string name="quick_settings_powershare_label">PowerShare nirwayar</string>
+    <string name="quick_settings_powershare_off_powersave_label">PowerShare nirwayar dimatikan\nPenjimatan bateri</string>
+    <string name="quick_settings_powershare_off_low_battery_label">PowerShare nirwayar dimatikan\nBateri terlalu lemah</string>
+    <string name="quick_settings_powershare_enabled_label">PowerShare nirwayar dibolehkan</string>
     <!-- Autobrightness tile -->
-    <string name="quick_settings_autobrightness_label">Auto brightness</string>
+    <string name="quick_settings_autobrightness_label">Kecerahan automatik</string>
     <!-- Bluetooth dialog -->
-    <string name="bluetooth_is_off">Bluetooth is off</string>
-    <string name="tap_a_device_to_connect">Tap a device to connect</string>
+    <string name="bluetooth_is_off">Bluetooth dimatikan</string>
+    <string name="tap_a_device_to_connect">Ketuk peranti untuk menyambung</string>
 </resources>
