@@ -29,14 +29,14 @@
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Автоматически</string>
     <string name="live_display_auto_summary">Автоматически регулировать температуру цвета экрана после заката и восхода солнца</string>
-    <string name="live_display_off">Отключено</string>
+    <string name="live_display_off">Выкл.</string>
     <string name="live_display_off_summary">Отключить все надстройки</string>
     <string name="live_display_day">День</string>
     <string name="live_display_day_summary">Использовать только дневные настройки</string>
     <string name="live_display_night">Ночь</string>
     <string name="live_display_night_summary">Использовать только ночные настройки</string>
     <string name="live_display_outdoor">На улице (яркое солнце)</string>
-    <string name="live_display_outdoor_summary">Использовать только режим \"На улице\"</string>
+    <string name="live_display_outdoor_summary">Только режим \"На улице\"</string>
     <string name="live_display_hint">LiveDisplay помогает снизить напряжение глаз и улучшает ночной сон. Нажмите здесь, чтобы попробовать!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay выключен.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: автоматический режим.</string>
@@ -52,7 +52,7 @@
     <string name="pocket_lock_message_long_press">Нажмите и удерживайте кнопку питания для разблокировки</string>
     <string name="pocket_view_title">Режим \"В кармане\" включен</string>
     <string name="pocket_view_title_cancel">Чтобы активировать Ваш телефон:</string>
-    <string name="pocket_view_top_tag_cancel">Не закрывая синюю часть устройства, очистите её от пыли и грязи.</string>
+    <string name="pocket_view_top_tag_cancel">Не закрывайте синюю часть телефона и очистите её от пыли и грязи.</string>
     <string name="pocket_view_top_tag_cancel2">Нажмите и удерживайте кнопку питания, чтобы принудительно выйти из режима \"В кармане\".</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
