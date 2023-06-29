@@ -28,7 +28,7 @@
     <string name="url_copy_failed">Günlük Memochō\'ya yüklenirken bir hata oluştu</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Otomatik</string>
-    <string name="live_display_auto_summary">Gün batımı ve doğumundan sonra ekranın renk sıcaklığını otomatik ayarlar</string>
+    <string name="live_display_auto_summary">Günbatımı ve gündoğumundan sonra otomatik olarak ekran renk sıcaklığını ayarla</string>
     <string name="live_display_off">Kapalı</string>
     <string name="live_display_off_summary">Tüm ayarlamaları devre dışı bırak</string>
     <string name="live_display_day">Gündüz</string>
@@ -52,7 +52,7 @@
     <string name="pocket_lock_message_long_press">Kilidi açmak için güç tuşuna basılı tutun</string>
     <string name="pocket_view_title">Cep modu açık</string>
     <string name="pocket_view_title_cancel">Telefonunuzu etkinleştirmek için:</string>
-    <string name="pocket_view_top_tag_cancel">Telefonunuzun mavi alanını kapatmayın ve her türlü kiri veya tozu temizleyin.</string>
+    <string name="pocket_view_top_tag_cancel">Telefonunuzun mavi alanında herhangi bir engel olup olmadığını kontrol edin ve herhangi bir kir veya toz varsa temizleyin.</string>
     <string name="pocket_view_top_tag_cancel2">Cep modundan çıkmak için güç tuşuna basılı tutun.</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
