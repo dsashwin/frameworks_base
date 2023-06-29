@@ -51,8 +51,8 @@
     <!-- Pocket Lock -->
     <string name="pocket_lock_message_long_press">长按电源键以解锁</string>
     <string name="pocket_view_title">口袋模式已开启</string>
-    <string name="pocket_view_title_cancel">To activate your phone:</string>
-    <string name="pocket_view_top_tag_cancel">Please do not cover the blue area of your phone and clear any dirt or dust off it.</string>
+    <string name="pocket_view_title_cancel">激活您的手机</string>
+    <string name="pocket_view_top_tag_cancel">请确保屏幕上的蓝色区域没有被遮挡，并清理上方的污垢及灰尘</string>
     <string name="pocket_view_top_tag_cancel2">长按电源键强制退出口袋模式</string>
     <string name="pocket_view_top_tag_number1">1.\u0020</string>
     <string name="pocket_view_top_tag_number2">2.\u0020</string>
