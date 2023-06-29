@@ -16,28 +16,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Advanced reboot -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Rebooting to recovery</string>
-    <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Rebooting to bootloader</string>
-    <string name="reboot_title">Reboot</string>
-    <string name="reboot_message">Rebooting system</string>
+    <string name="reboot_to_recovery_title">Mod Pemulihan</string>
+    <string name="reboot_to_recovery_message">Mengebut ke mod pemulihan</string>
+    <string name="reboot_to_bootloader_title">Pemuat but</string>
+    <string name="reboot_to_bootloader_message">Mengebut semula ke bootloader</string>
+    <string name="reboot_title">But semula</string>
+    <string name="reboot_message">Memulakan semula sistem</string>
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
+    <string name="aerr_copy">Salin URL log kerosakan</string>
+    <string name="url_copy_success">URL berjaya disalin</string>
+    <string name="url_copy_failed">Berlaku ralat ketika memuat naik log ke Memochō</string>
     <!-- LiveDisplay strings -->
-    <string name="live_display_auto">Automatic</string>
-    <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
-    <string name="live_display_off">Off</string>
-    <string name="live_display_off_summary">Disable all adjustments</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_day_summary">Use day settings only</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_night_summary">Use night settings only</string>
-    <string name="live_display_outdoor">Outdoor (bright sun)</string>
-    <string name="live_display_outdoor_summary">Use outdoor settings only</string>
-    <string name="live_display_hint">LiveDisplay can help reduce eyestrain and help you sleep at night. Click here to try it out!</string>
+    <string name="live_display_auto">Automatik</string>
+    <string name="live_display_auto_summary">Melaraskan warna suhu skrin secara automatik selepas matahari terbenam dan terbit</string>
+    <string name="live_display_off">Matikan</string>
+    <string name="live_display_off_summary">Mematikan semua pelarasan</string>
+    <string name="live_display_day">Hari</string>
+    <string name="live_display_day_summary">Gunakan tetapan siang sahaja</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_night_summary">Gunakan tetapan malam sahaja</string>
+    <string name="live_display_outdoor">Ruangan luar (matahari cerah)</string>
+    <string name="live_display_outdoor_summary">Gunakan tetapan ruangan luar sahaja</string>
+    <string name="live_display_hint">LiveDisplay boleh membantu mengurangkan sakit mata dan membantu anda tidur pada waktu malam. Klik di sini untuk mencubanya!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay off.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: auto mode.</string>
     <string name="accessibility_quick_settings_live_display_day">LiveDisplay: day mode.</string>
