@@ -28,7 +28,7 @@
     <string name="url_copy_failed">Si è verificato un errore durante il caricamento del log su Memochō</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automatico</string>
-    <string name="live_display_auto_summary">Regola automaticamente la temperatura del colore dello schermo dopo il tramonto e l\'alba</string>
+    <string name="live_display_auto_summary">Regola automaticamente la temperatura del colore dello schermo dopo il tramonto e all\'alba</string>
     <string name="live_display_off">Non attivo</string>
     <string name="live_display_off_summary">Disabilita tutte le modifiche</string>
     <string name="live_display_day">Giorno</string>
