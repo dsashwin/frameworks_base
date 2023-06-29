@@ -18,30 +18,30 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_aod_label">Paparan selalu aktif (AOD)</string>
     <!-- Caffeine QS tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+    <string name="quick_settings_caffeine_label">Kafein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Kafein dimatikan.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Kafein dihidupkan.</string>
     <!-- Heads up QS tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
+    <string name="quick_settings_heads_up_label">Notifikasi pop naik</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifikasi pop naik dimatikan.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifikasi pop naik dihidupkan.</string>
     <!-- Sync QS tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off.</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on.</string>
+    <string name="quick_settings_sync_label">Penyegerakkan</string>
+    <string name="accessibility_quick_settings_sync_off">Penyegerakkan dimatikan.</string>
+    <string name="accessibility_quick_settings_sync_on">Penyegerakkan dihidupkan.</string>
     <!-- USB tethering QS tile -->
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="quick_settings_usb_tether_label">Penambatan USB</string>
     <!-- VPN QS tile -->
     <string name="quick_settings_vpn_label">VPN</string>
-    <string name="quick_settings_vpn_connect_dialog_title">Connect to\u2026</string>
-    <string name="vpn_credentials_hint">Please enter your credentials for connecting to <xliff:g id="name">%s</xliff:g></string>
-    <string name="vpn_credentials_username">Username</string>
-    <string name="vpn_credentials_password">Password</string>
-    <string name="vpn_credentials_dialog_connect">Connect</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Sambung kepada \u2026</string>
+    <string name="vpn_credentials_hint">Sila masukan kelayakan anda untuk menyambung ke <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Nama pengguna</string>
+    <string name="vpn_credentials_password">Kata laluan</string>
+    <string name="vpn_credentials_dialog_connect">Sambung</string>
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Switch data card</string>
+    <string name="qs_data_switch_label">Tukar kad data</string>
     <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
     <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
