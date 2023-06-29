@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_aod_label">Ecrã sempre ligado</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">Cafeína</string>
     <string name="accessibility_quick_settings_caffeine_off">Cafeína desligada.</string>
@@ -49,9 +49,9 @@
     <string name="qs_data_switch_changed_1">Trocar cartão de dados para o SIM 1.</string>
     <string name="qs_data_switch_changed_2">Trocar o cartão de dados para o SIM 2.</string>
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
-    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_init">Initializing\u2026</string>
+    <string name="quick_settings_compass_label">Bússola</string>
+    <string name="quick_settings_compass_value"><xliff:g id="graus">%1$.0f</xliff:g>\u00b0 <xliff:g id="direção">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">A iniciar\u2026</string>
     <string name="quick_settings_compass_N">N</string>
     <string name="quick_settings_compass_NE">NE</string>
     <string name="quick_settings_compass_E">E</string>
@@ -61,15 +61,15 @@
     <string name="quick_settings_compass_W">W</string>
     <string name="quick_settings_compass_NW">NW</string>
     <!-- Sound QS Tile -->
-    <string name="quick_settings_sound_label">Sound</string>
-    <string name="quick_settings_sound_ring">Ring</string>
-    <string name="quick_settings_sound_vibrate">Vibrate</string>
-    <string name="quick_settings_sound_silent">Silent</string>
+    <string name="quick_settings_sound_label">Som</string>
+    <string name="quick_settings_sound_ring">Toque</string>
+    <string name="quick_settings_sound_vibrate">Vibração</string>
+    <string name="quick_settings_sound_silent">Silencioso</string>
     <!-- Advanced Reboot -->
-    <string name="global_action_restart_advanced">Advanced</string>
-    <string name="global_action_restart_recovery">Recovery</string>
+    <string name="global_action_restart_advanced">Avançado</string>
+    <string name="global_action_restart_recovery">Recuperação</string>
     <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
+    <string name="global_action_restart_ui">Interface do sistema</string>
     <!-- Data usage info in QS footer -->
     <string name="usage_data">utilizado hoje</string>
     <string name="usage_data_default_suffix">Dados</string>
@@ -87,10 +87,10 @@
     <!-- Anti flicker QS tile -->
     <string name="quick_settings_anti_flicker">Anti-cintilação</string>
     <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
-    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
-    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
+    <string name="quick_settings_powershare_label">Carregamento reverso sem fios</string>
+    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare desligado\nPoupança de energia</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare desligado\nBateria demasiado fraca</string>
+    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare está ativado</string>
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">Brilho automático</string>
     <!-- Bluetooth dialog -->
