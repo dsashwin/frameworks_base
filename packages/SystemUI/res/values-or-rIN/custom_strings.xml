@@ -18,15 +18,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_aod_label">ସବୁବେଳେ ପ୍ରଦର୍ଶନରେ</string>
     <!-- Caffeine QS tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+    <string name="quick_settings_caffeine_label">କାଫେଇନ୍</string>
+    <string name="accessibility_quick_settings_caffeine_off">କେଫିନ୍ ବନ୍ଦ.</string>
+    <string name="accessibility_quick_settings_caffeine_on">କାଫେଇନ୍ ବନ୍ଦ.</string>
     <!-- Heads up QS tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
+    <string name="quick_settings_heads_up_label">ହେଡ୍ସ୍‍ ଅପ୍‍</string>
+    <string name="accessibility_quick_settings_heads_up_off">ହେଡ୍ସ୍‍ ଅପ୍‍ ଅଫ୍‍ ଅଛି।</string>
+    <string name="accessibility_quick_settings_heads_up_on">ହେଡ୍ସ୍‍ ଅପ୍‍ ଅନ୍‍ ଅଛି।</string>
     <!-- Sync QS tile -->
     <string name="quick_settings_sync_label">Sync</string>
     <string name="accessibility_quick_settings_sync_off">Sync off.</string>
