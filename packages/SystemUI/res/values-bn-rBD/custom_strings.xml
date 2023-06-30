@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOD QS tile -->
-    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_aod_label">সর্বদা-অন ডিসপ্লে</string>
     <!-- Caffeine QS tile -->
     <string name="quick_settings_caffeine_label">ক্যাফেইন</string>
     <string name="accessibility_quick_settings_caffeine_off">ক্যাফেইন বন্ধ।</string>
@@ -49,15 +49,15 @@
     <string name="qs_data_switch_changed_1">ডেটা কার্ড সিম ১ এ নিয়োজিত হয়েছে.</string>
     <string name="qs_data_switch_changed_2">ডেটা মোড সিম ২ তে নিয়োজিত হয়েছে.</string>
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_compass_label">কম্পাস</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_init">Initializing\u2026</string>
-    <string name="quick_settings_compass_N">N</string>
-    <string name="quick_settings_compass_NE">NE</string>
-    <string name="quick_settings_compass_E">E</string>
-    <string name="quick_settings_compass_SE">SE</string>
-    <string name="quick_settings_compass_S">S</string>
-    <string name="quick_settings_compass_SW">SW</string>
+    <string name="quick_settings_compass_init">শুরু করা হচ্ছে\u2026</string>
+    <string name="quick_settings_compass_N">উঃ</string>
+    <string name="quick_settings_compass_NE">উঃপূঃ</string>
+    <string name="quick_settings_compass_E">পূঃ</string>
+    <string name="quick_settings_compass_SE">দঃপূঃ</string>
+    <string name="quick_settings_compass_S">দঃ</string>
+    <string name="quick_settings_compass_SW">দঃপঃ</string>
     <string name="quick_settings_compass_W">W</string>
     <string name="quick_settings_compass_NW">NW</string>
     <!-- Sound QS Tile -->
