@@ -52,24 +52,24 @@
     <string name="quick_settings_compass_label">কম্পাস</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">শুরু করা হচ্ছে\u2026</string>
-    <string name="quick_settings_compass_N">উঃ</string>
-    <string name="quick_settings_compass_NE">উঃপূঃ</string>
-    <string name="quick_settings_compass_E">পূঃ</string>
-    <string name="quick_settings_compass_SE">দঃপূঃ</string>
-    <string name="quick_settings_compass_S">দঃ</string>
-    <string name="quick_settings_compass_SW">দঃপঃ</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SW</string>
     <string name="quick_settings_compass_W">W</string>
     <string name="quick_settings_compass_NW">NW</string>
     <!-- Sound QS Tile -->
-    <string name="quick_settings_sound_label">Sound</string>
-    <string name="quick_settings_sound_ring">Ring</string>
-    <string name="quick_settings_sound_vibrate">Vibrate</string>
-    <string name="quick_settings_sound_silent">Silent</string>
+    <string name="quick_settings_sound_label">শব্দ</string>
+    <string name="quick_settings_sound_ring">রিং</string>
+    <string name="quick_settings_sound_vibrate">কম্পন</string>
+    <string name="quick_settings_sound_silent">নীরব</string>
     <!-- Advanced Reboot -->
-    <string name="global_action_restart_advanced">Advanced</string>
-    <string name="global_action_restart_recovery">Recovery</string>
-    <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
+    <string name="global_action_restart_advanced">উন্নত</string>
+    <string name="global_action_restart_recovery">পুনরুদ্ধার</string>
+    <string name="global_action_restart_bootloader">বুটলোডার</string>
+    <string name="global_action_restart_ui">সিস্টেম UI</string>
     <!-- Data usage info in QS footer -->
     <string name="usage_data">আজই ব্যবহৃত হয়েছে</string>
     <string name="usage_data_default_suffix">ডেটা</string>
@@ -87,10 +87,10 @@
     <!-- Anti flicker QS tile -->
     <string name="quick_settings_anti_flicker">অ্যান্টি ফ্লিকার</string>
     <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
-    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
-    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
+    <string name="quick_settings_powershare_label">ওয়্যারলেস পাওয়ার শেয়ার</string>
+    <string name="quick_settings_powershare_off_powersave_label">ওয়্যারলেস পাওয়ারশেয়ার বন্ধ\nব্যাটারি সেভার</string>
+    <string name="quick_settings_powershare_off_low_battery_label">ওয়্যারলেস পাওয়ারশেয়ার বন্ধ\nব্যাটারি খুব কম</string>
+    <string name="quick_settings_powershare_enabled_label">ওয়্যারলেস পাওয়ার শেয়ার চালু করা আছে</string>
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">স্বয়ংক্রিয় উজ্জ্বলতা</string>
     <!-- Bluetooth dialog -->
