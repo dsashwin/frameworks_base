@@ -16,22 +16,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Advanced reboot -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Rebooting to recovery</string>
-    <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Rebooting to bootloader</string>
-    <string name="reboot_title">Reboot</string>
-    <string name="reboot_message">Rebooting system</string>
+    <string name="reboot_to_recovery_title">リカバリー</string>
+    <string name="reboot_to_recovery_message">リカバリーで再起動</string>
+    <string name="reboot_to_bootloader_title">ブートローダー</string>
+    <string name="reboot_to_bootloader_message">A</string>
+    <string name="reboot_title">再起動</string>
+    <string name="reboot_message">システムを再起動中...</string>
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to Memochō</string>
+    <string name="aerr_copy">クラッシュログ URL をコピーする</string>
+    <string name="url_copy_success">URLがコピーされた</string>
+    <string name="url_copy_failed">メモ帳へのログのアップロード中にエラーが発生しました</string>
     <!-- LiveDisplay strings -->
-    <string name="live_display_auto">Automatic</string>
+    <string name="live_display_auto">自動</string>
     <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
-    <string name="live_display_off">Off</string>
-    <string name="live_display_off_summary">Disable all adjustments</string>
-    <string name="live_display_day">Day</string>
+    <string name="live_display_off">オフ</string>
+    <string name="live_display_off_summary">全ての調整を無効にする</string>
+    <string name="live_display_day">昼間</string>
     <string name="live_display_day_summary">Use day settings only</string>
     <string name="live_display_night">Night</string>
     <string name="live_display_night_summary">Use night settings only</string>
