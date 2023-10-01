@@ -60,8 +60,8 @@
     <string name="charging_control_notification_channel">Έλεγχος φόρτισης</string>
     <string name="charging_control_notification_title">Έλεγχος φόρτισης</string>
     <string name="charging_control_notification_cancel_once">Ακύρωση</string>
-    <string name="charging_control_notification_content_limit">Battery will be charged to %1$d%%</string>
-    <string name="charging_control_notification_content_limit_reached">Battery is charged to %1$d%%</string>
-    <string name="charging_control_notification_content_target">Battery will be fully charged at %1$s</string>
-    <string name="charging_control_notification_content_target_reached">Battery is charged</string>
+    <string name="charging_control_notification_content_limit">Η μπαταρία θα φορτιστεί έως %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Η μπαταρία φορτίστηκε έως %1$d%%</string>
+    <string name="charging_control_notification_content_target">Η μπαταρία θα είναι πλήρως φορτισμένη στις %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Η μπαταρία φορτίστηκε</string>
 </resources>
