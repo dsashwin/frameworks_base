@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">تبديل بطاقة البيانات</string>
-    <string name="qs_data_switch_toast_0">لا توجد بطاقة SIM حاليا</string>
-    <string name="qs_data_switch_toast_1">هناك شريحة SIM واحدة مدرجة</string>
+    <string name="qs_data_switch_label">Switch data card</string>
+    <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
+    <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
     <string name="qs_data_switch_text_2">SIM 2</string>
-    <string name="qs_data_switch_changed_1">تم تبديل بطاقة البيانات إلى بطاقة SIM 1.</string>
-    <string name="qs_data_switch_changed_2">تم تبديل بطاقة البيانات إلى شريحة SIM 2.</string>
+    <string name="qs_data_switch_changed_1">Switched data card to SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Switched data card to SIM 2.</string>
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">السطوع التلقائي</string>
     <!-- Caffeine tile -->
@@ -24,10 +24,10 @@
     <!-- USB tethering QS tile -->
     <string name="quick_settings_usb_tether_label">‏ربط USB</string>
     <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">مشاركة الشحن لاسلكياً</string>
-    <string name="quick_settings_powershare_off_powersave_label">إيقاف\n مشاركة الشحن لاسلكياً عند تفعيل وضع توفير البطارية</string>
-    <string name="quick_settings_powershare_off_low_battery_label">ايقاف مشاركة الشحن اللاسلكي العكسي\nالبطارية منخفضة جداً</string>
-    <string name="quick_settings_powershare_enabled_label">الشحن اللاسلكي العكسي مفعل</string>
+    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
+    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
+    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
     <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
     <plurals name="quick_settings_internet_hotspot_summary_num_devices">
         <item quantity="zero">%d devices connected</item>
@@ -38,10 +38,10 @@
         <item quantity="other">%d devices connected</item>
     </plurals>
     <!-- Advanced Reboot -->
-    <string name="global_action_restart_advanced">خيارات متقدمة</string>
-    <string name="global_action_restart_recovery">الريكفري</string>
-    <string name="global_action_restart_bootloader">البوتلودر</string>
-    <string name="global_action_restart_ui">واجهة المستخدم</string>
+    <string name="global_action_restart_advanced">Advanced</string>
+    <string name="global_action_restart_recovery">Recovery</string>
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <string name="global_action_restart_ui">SystemUI</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">Recognizing face...</string>
     <!-- Status bar -->
