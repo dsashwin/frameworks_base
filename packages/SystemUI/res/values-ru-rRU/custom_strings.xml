@@ -38,7 +38,7 @@
     <!-- Advanced Reboot -->
     <string name="global_action_restart_advanced">Расширенная</string>
     <string name="global_action_restart_recovery">Recovery</string>
-    <string name="global_action_restart_bootloader">Bootloader</string>
+    <string name="global_action_restart_bootloader">Загрузчик</string>
     <string name="global_action_restart_ui">Интерфейс</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">Распознавание лица...</string>
