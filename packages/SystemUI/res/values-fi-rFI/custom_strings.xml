@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Vaihda datakortti</string>
+    <string name="qs_data_switch_label"></string>
     <string name="qs_data_switch_toast_0">SIM-kortti ei ole tällä hetkellä asennettu</string>
     <string name="qs_data_switch_toast_1">Vain yksi SIM-kortti asennettu</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
@@ -22,7 +22,7 @@
     <string name="quick_settings_aod_label">AOD</string>
     <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
     <!-- USB tethering QS tile -->
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="quick_settings_usb_tether_label">USB-yhteyden jako</string>
     <!-- PowerShare QS tile -->
     <string name="quick_settings_powershare_label">Wireless PowerShare</string>
     <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
